@@ -1,0 +1,75 @@
+magic
+tech sky130A
+timestamp 1729062746
+<< viali >>
+rect 83 529 128 546
+rect 435 533 480 550
+rect 833 533 878 550
+rect 81 18 126 35
+rect 437 22 482 39
+rect 834 22 879 39
+<< metal1 >>
+rect -14 550 972 554
+rect -14 546 435 550
+rect -14 529 83 546
+rect 128 533 435 546
+rect 480 533 833 550
+rect 878 533 972 550
+rect 128 529 972 533
+rect -14 527 972 529
+rect 77 526 134 527
+rect -90 294 -23 299
+rect -90 265 -87 294
+rect -27 291 -23 294
+rect -27 268 108 291
+rect -27 265 -23 268
+rect 147 267 459 291
+rect 501 273 858 296
+rect 980 295 1051 304
+rect 980 291 985 295
+rect 899 269 985 291
+rect -90 259 -23 265
+rect 980 266 985 269
+rect 1045 266 1051 295
+rect 980 258 1051 266
+rect -15 39 971 42
+rect -15 35 437 39
+rect -15 18 81 35
+rect 126 22 437 35
+rect 482 22 834 39
+rect 879 22 971 39
+rect 126 18 971 22
+rect -15 15 971 18
+<< via1 >>
+rect -87 265 -27 294
+rect 985 266 1045 295
+<< metal2 >>
+rect -90 295 -23 299
+rect 980 295 1051 304
+rect -90 294 985 295
+rect -90 265 -87 294
+rect -27 266 985 294
+rect 1045 266 1051 295
+rect -27 265 1051 266
+rect -90 259 -23 265
+rect 980 258 1051 265
+use inverter_2  inverter_2_0
+timestamp 1729047828
+transform 1 0 26 0 1 -5
+box -26 5 185 569
+use inverter_2  inverter_2_1
+timestamp 1729047828
+transform 1 0 378 0 1 -1
+box -26 5 185 569
+use inverter_2  inverter_2_2
+timestamp 1729047828
+transform 1 0 777 0 1 -1
+box -26 5 185 569
+<< labels >>
+flabel metal1 638 542 638 542 0 FreeSans 800 0 0 0 VDD
+port 0 nsew
+flabel metal2 608 280 608 280 0 FreeSans 800 0 0 0 OUT
+port 1 nsew
+flabel metal1 614 27 614 27 0 FreeSans 800 0 0 0 GND
+port 3 nsew
+<< end >>
